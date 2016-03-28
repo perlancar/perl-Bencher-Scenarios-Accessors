@@ -15,7 +15,7 @@ our $scenario = {
     participants => [
         map {
             #my $spec = $classes->{$_};
-            +{ (module=>$_ };
+            +{ module=>$_ };
         } keys %$classes,
     ],
 };
