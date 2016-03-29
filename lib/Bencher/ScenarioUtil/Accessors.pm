@@ -4,9 +4,9 @@ package Bencher::ScenarioUtil::Accessors;
 # VERSION
 
 our %classes = (
-    'Perl::Examples::Accessors::Hash'                 => {backend=>'hash'  , immutable=>0, generator=>undef},
-    'Perl::Examples::Accessors::Array'                => {backend=>'array' , immutable=>0, generator=>undef},
-    'Perl::Examples::Accessors::Scalar'               => {backend=>'scalar', immutable=>1, generator=>undef},
+    'Perl::Examples::Accessors::Hash'                 => {backend=>'hash'  , immutable=>0, generator=>undef, name=>'raw-hash'},
+    'Perl::Examples::Accessors::Array'                => {backend=>'array' , immutable=>0, generator=>undef, name=>'raw-array'},
+    'Perl::Examples::Accessors::Scalar'               => {backend=>'scalar', immutable=>1, generator=>undef, name=>'raw-scalar'},
     'Perl::Examples::Accessors::Mo'                   => {backend=>'hash'  , immutable=>0, generator=>'Mo'},
     'Perl::Examples::Accessors::Moo'                  => {backend=>'hash'  , immutable=>0, generator=>'Moo'},
     'Perl::Examples::Accessors::Moose'                => {backend=>'hash'  , immutable=>0, generator=>'Moose'},
