@@ -1,5 +1,11 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.02    2016-03-29 (PERLANCAR)
+
+	- Accessor::Construction: Include result size to show the object
+	  size.
+
+
 0.01    2016-03-29 (PERLANCAR)
 
         - First release.
