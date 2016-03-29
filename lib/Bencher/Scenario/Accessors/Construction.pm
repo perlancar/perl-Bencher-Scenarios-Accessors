@@ -21,6 +21,7 @@ our $scenario = {
             };
         } keys %$classes,
     ],
+    include_result_size => 1,
 };
 
 1;
