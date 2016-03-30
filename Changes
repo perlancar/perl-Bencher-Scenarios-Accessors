@@ -1,5 +1,13 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.04    2016-03-31 (PERLANCAR)
+
+	- Rename scenario Accessors::{Read,Get}, Accessors::{Write,Set}.
+
+	- Mention Benchmark::Perl::Formance &
+	  Benchmark::Perl::Formance::Plugin::Accessors*.
+
+
 0.03    2016-03-30 (PERLANCAR)
 
 	- Compare read/write accessors with raw array/hash access.
