@@ -1,4 +1,4 @@
-package Bencher::Scenario::Accessors::Write;
+package Bencher::Scenario::Accessors::Set;
 
 # DATE
 # VERSION
@@ -8,7 +8,7 @@ use Bencher::ScenarioUtil::Accessors;
 my $classes = \%Bencher::ScenarioUtil::Accessors::classes;
 
 our $scenario = {
-    summary => 'Benchmark attribute read',
+    summary => 'Benchmark attribute write/set',
     modules => {
     },
     participants => [
