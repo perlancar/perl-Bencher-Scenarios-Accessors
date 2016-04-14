@@ -1,5 +1,10 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.06    2016-04-14 (PERLANCAR)
+
+	- Add participants: Mojo::Base, Object::Simple.
+
+
 0.05    2016-04-14 (PERLANCAR)
 
 	- Add participant: Class::InsideOut.
