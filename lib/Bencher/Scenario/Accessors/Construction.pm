@@ -10,7 +10,7 @@ my $classes = \%Bencher::ScenarioUtil::Accessors::classes;
 our $scenario = {
     summary => 'Benchmark object construction',
     modules => {
-        'Perl::Examples::Accessors' => {version=>0.04},
+        'Perl::Examples::Accessors' => {version=>0.05},
     },
     participants => [
         map {
