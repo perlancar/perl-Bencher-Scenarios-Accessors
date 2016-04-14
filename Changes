@@ -1,5 +1,10 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.05    2016-04-14 (PERLANCAR)
+
+	- Add participant: Class::InsideOut.
+
+
 0.04    2016-03-31 (PERLANCAR)
 
 	- Rename scenario Accessors::{Read,Get}, Accessors::{Write,Set}.
