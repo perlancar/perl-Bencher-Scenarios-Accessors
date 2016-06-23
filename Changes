@@ -1,5 +1,12 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.07    2016-06-23 (PERLANCAR)
+
+        - No functional changes.
+
+        - [build] Rebuild with newer Bencher for nicer output.
+
+
 0.06    2016-04-14 (PERLANCAR)
 
 	- Add participants: Mojo::Base, Object::Simple.
