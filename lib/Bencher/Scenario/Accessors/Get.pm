@@ -37,6 +37,7 @@ our $scenario = {
             code_template => "state \$o = do { my \$o = Perl::Examples::Accessors::Array->new; \$o->attr1(42); \$o }; \$o->[0]",
         },
     ],
+    result => 42,
 };
 
 1;
