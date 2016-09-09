@@ -1,5 +1,13 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.09    2016-09-09 (PERLANCAR)
+
+        - Add participant: Class::Tiny.
+
+        - Update participant module versions, especially optimized the manual
+          accessors a bit.
+
+
 0.08    2016-06-26 (PERLANCAR)
 
 	- Add participant: Simple::Accessor.
