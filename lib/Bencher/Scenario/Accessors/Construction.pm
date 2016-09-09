@@ -10,7 +10,13 @@ my $classes = \%Bencher::ScenarioUtil::Accessors::classes;
 our $scenario = {
     summary => 'Benchmark object construction',
     modules => {
+        # force minimum version
         'Perl::Examples::Accessors' => {version=>0.05},
+
+        # include the generator modules here so we can show their versions in
+        # sample benchmark results produced by PWP:Bencher::Scenario
+        (map { $_=>0 } grep {defined} map { $classes->{$_}{generator} }
+             keys %$classes),
     },
     participants => [
         map {

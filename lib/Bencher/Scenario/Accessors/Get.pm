@@ -10,6 +10,10 @@ my $classes = \%Bencher::ScenarioUtil::Accessors::classes;
 our $scenario = {
     summary => 'Benchmark attribute read/get',
     modules => {
+        # include the generator modules here so we can show their versions in
+        # sample benchmark results produced by PWP:Bencher::Scenario
+        (map { $_=>0 } grep {defined} map { $classes->{$_}{generator} }
+             keys %$classes),
     },
     participants => [
         (map {
