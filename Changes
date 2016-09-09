@@ -4,7 +4,7 @@ Revision history for Bench-Scenarios-Accessors
 
         - Add participant: Class::Tiny.
 
-        - Update participant module versions, especially optimized the manual
+        - Update participant module versions, especially optimize the manual
           accessors a bit.
 
 
