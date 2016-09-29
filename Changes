@@ -1,5 +1,12 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.11    2016-09-29 (PERLANCAR)
+
+	- Add participant: Mojo::Base::XS.
+
+	- Set expected result for getter.
+
+
 0.10    2016-09-09 (PERLANCAR)
 
 	- [ux] Include generator modules in scenario so their versions can
