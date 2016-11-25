@@ -1,5 +1,11 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.12    2016-11-25 (PERLANCAR)
+
+        - Add participants: Object::Tiny, Object::Tiny::{XS,RW,RW::XS}, Moos,
+          Moops, Class::Struct, Evo::Class.
+
+
 0.11    2016-09-29 (PERLANCAR)
 
 	- Add participant: Mojo::Base::XS.
