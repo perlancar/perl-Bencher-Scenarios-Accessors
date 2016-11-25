@@ -23,7 +23,7 @@ our $scenario = {
                 module => $_,
                 code_template => "state \$o = do { my \$o = ${_}->new; \$o }; \$o->attr1(42)",
             };
-        } grep { !$classes->{$_}{immutable} } keys %$classes),
+        } grep { !$classes->{$_}{immutable} && ($classes->{$_}{supports_setters} // 1) } keys %$classes),
 
         # also compare with raw hash & array access
         {
