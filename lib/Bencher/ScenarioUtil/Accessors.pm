@@ -23,6 +23,7 @@ our %classes = (
     'Perl::Examples::Accessors::ClassXSAccessorArray' => {backend=>'array' , immutable=>0, generator=>'Class::XSAccessor::Array'},
     'Perl::Examples::Accessors::SimpleAccessor'       => {backend=>'hash'  , immutable=>0, generator=>'Simple::Accessor'},
     'Perl::Examples::Accessors::ClassTiny'            => {backend=>'hash'  , immutable=>0, generator=>'Class::Tiny'},
+    'Perl::Examples::Accessors::ObjectTiny'           => {backend=>'hash'  , immutable=>0, generator=>'Object::Tiny', supports_setters=>0},
 );
 
 our %attrs = (

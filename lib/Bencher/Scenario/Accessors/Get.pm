@@ -18,10 +18,13 @@ our $scenario = {
     participants => [
         (map {
             my $spec = $classes->{$_};
+            my $supports_setters = $spec->{supports_setters} // 1;
             +{
                 name => $spec->{generator} || $spec->{name},
                 module => $_,
-                code_template => "state \$o = do { my \$o = ${_}->new; \$o->attr1(42); \$o }; \$o->attr1",
+                code_template => $supports_setters ?
+                    "state \$o = do { my \$o = ${_}->new; \$o->attr1(42); \$o }; \$o->attr1" :
+                    "state \$o = do { my \$o = ${_}->new(attr1 => 42); \$o }; \$o->attr1",
             };
         } grep { !$classes->{$_}{immutable} } keys %$classes),
 
