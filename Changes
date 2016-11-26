@@ -1,5 +1,13 @@
 Revision history for Bench-Scenarios-Accessors
 
+0.13    2016-11-26 (PERLANCAR)
+
+	- No functional changes.
+
+	- Force version of Perl::Examples::Accessors::EvoClass to 0.11 to
+	  force Evo::Class minimum version.
+
+
 0.12    2016-11-25 (PERLANCAR)
 
         - Add participants: Object::Tiny, Object::Tiny::{XS,RW,RW::XS}, Moos,
