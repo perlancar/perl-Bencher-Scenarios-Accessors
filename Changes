@@ -1,3 +1,12 @@
+0.150   2021-08-03  Released-By: PERLANCAR; Urgency: medium
+
+	- Remove participant: Evo::Class (non-working code).
+
+        - Add participant: Object::Pad.
+
+        - Show charts in sample benchmark results.
+
+
 0.14    2017-01-25  Released-By: PERLANCAR
 
 	- No functional changes.
