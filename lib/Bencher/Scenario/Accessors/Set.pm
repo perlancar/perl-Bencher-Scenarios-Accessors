@@ -1,7 +1,13 @@
 package Bencher::Scenario::Accessors::Set;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
+
+use 5.010001;
+use strict;
+use warnings;
 
 use Bencher::ScenarioUtil::Accessors;
 
@@ -21,7 +27,7 @@ our $scenario = {
             +{
                 name => $spec->{generator} || $spec->{name},
                 module => $_,
-                code_template => "state \$o = do { my \$o = ${_}->new; \$o }; \$o->attr1(42)",
+                code_template => "state \$o = do { my \$o = ${_}->new; \$o }; \$o->".($spec->{setter_name} // "attr1")."(42)",
             };
         } grep { !$classes->{$_}{immutable} && ($classes->{$_}{supports_setters} // 1) } keys %$classes),
 

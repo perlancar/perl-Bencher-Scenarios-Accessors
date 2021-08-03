@@ -1,6 +1,8 @@
 package Bencher::ScenarioUtil::Accessors;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 our %classes = (
@@ -47,8 +49,11 @@ our %classes = (
     'Perl::Examples::Accessors::ObjectTinyRW'         => {backend=>'hash'  , immutable=>0, generator=>'Object::Tiny::RW'},
     'Perl::Examples::Accessors::ObjectTinyRWXS'       => {backend=>'hash'  , immutable=>0, generator=>'Object::Tiny::RW::XS'},
 
+    # Object::Pad
+    'Perl::Examples::Accessors::ObjectPad'            => {backend=>'hash'  , immutable=>0, generator=>'Object::Pad', supports_setters=>1, setter_name=>"set_attr1"},
+
     # others
-    'Perl::Examples::Accessors::EvoClass'             => {backend=>'hash'  , immutable=>0, generator=>'Evo::Class'},
+    #'Perl::Examples::Accessors::EvoClass'             => {backend=>'hash'  , immutable=>0, generator=>'Evo::Class'}, # removed 2021-08-03 in Perl-Examples-Accessors due to non-working code
 
 );
 
