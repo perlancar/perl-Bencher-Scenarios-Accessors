@@ -1,4 +1,4 @@
-package Bencher::Scenarios::Accessors;
+package Bencher::ScenarioBundle::Accessors;
 
 # DATE
 # VERSION
